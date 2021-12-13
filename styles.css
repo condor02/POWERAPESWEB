@@ -1,0 +1,32 @@
+h1 { 
+    color: #ff5000;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+strong {    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+span {    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.box {
+height: 150px;
+width: 780px;  
+padding: 20px;
+margin: 30;
+border: 5px solid black;
+background-image:url( "pix_logo/head_pix.jpg")
+}
