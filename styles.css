@@ -1,32 +1,222 @@
-h1 { 
-    color: #ff5000;
+@font-face {
+    font-family: "J-airplane-swash-font";
+    src: url(fonts/J-airplane-swash-font.ttf);
 }
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+@font-face {
+    font-family: "airmole";
+    src: url(fonts/airmole.ttf);
 }
- h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
- }
- p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
- }
-li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+@font-face {
+    font-family: "AGENCYB";
+    src: url(fonts/AGENCYB.TTF);
+}
+@font-face {
+    font-family: "airmoles";
+    src: url(fonts/airmoles.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(119, 119, 119);
+}
+hmtl, body {
+margin: 0;
+padding: 0;
+}
+
+.nav ul {
+margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-family: airmoles;
+    font-size: 30px;
 
 }
-strong {    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
-span {    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+.main-nav li {
+    padding: 0 5%
 }
-button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+ }
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url("pix_logo/head_pix.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 140px;
 
 }
-.box {
-height: 150px;
-width: 780px;  
-padding: 20px;
-margin: 30;
-border: 5px solid black;
-background-image:url( "pix_logo/head_pix.jpg")
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: J-airplane-swash-font;
+    font-weight: normal;
+    color: white;
 }
+
+.band-name-large {
+    font-size: 6em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: airmole;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-img {
+    float: left;
+    height: 350px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 40%;
+
+}
+.members {
+    text-align: left;
+}
+.main-footer {
+    background-color: rgb(58, 56, 56);
+    color: white;
+    padding: .20em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+flex-grow: 1;
+text-align: end;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.text-about {
+    font-family: AGENCYB;
+    font-size: 1.1em;
+}
+
+.text-members-apes {
+    font-family: AGENCYB;
+    font-size: 1.1em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: blanchedalmond;
+    border: 2px solid #df0a51;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "airmoles";
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #df0a51;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 21%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+} 
+
+.btn-primery {
+    color: blanchedalmond;
+    background-color: #df0a51;
+    border: none;
+    border-radius: .3em;
+    font-family: "arial";
+}
+
+.btn-primery:hover {
+    background-color: #a7053b;
+}
+
